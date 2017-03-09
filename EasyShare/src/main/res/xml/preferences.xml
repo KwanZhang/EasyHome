@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+	
+    <ListPreference
+        android:key="SampleRate"
+        android:title="@string/title_samplerate_listpreference"
+        android:entries="@array/SampleRate_str"
+        android:entryValues="@array/SampleRate_values_str"
+        android:dialogTitle="@string/dialog_samplerate_title"
+        android:defaultValue="@string/default_samplerate_str"
+        android:summary="@string/summary_samplerate_str"/>
+    <ListPreference
+        android:key="ChannelConfig"
+        android:title="@string/title_channelconfig_listpreference"
+        android:entries="@array/ChannelConfig_str"
+        android:entryValues="@array/ChannelConfig_values_str"
+        android:dialogTitle="@string/dialog_channelconfig_title"
+        android:defaultValue="@string/default_channelconfig_str"
+        android:summary="@string/summary_channelconfig_str"/>
+    <ListPreference
+        android:key="AudioFormat"
+        android:title="@string/title_audioformat_listpreference"
+        android:entries="@array/AudioFormat_str"
+        android:entryValues="@array/AudioFormat_values_str"
+        android:dialogTitle="@string/dialog_audioformat_title"
+        android:defaultValue="@string/default_audioformat_str"
+        android:summary="@string/summary_audioformat_str"/>
+    <ListPreference
+        android:key="RecordVoice"
+        android:title="@string/title_recordvoice_listpreference"
+        android:entries="@array/voice_adjust"
+        android:entryValues="@array/voice_adjust"
+        android:dialogTitle="@string/dialog_recordvoice_title"
+        android:defaultValue="@string/default_recordvoice_str"
+        android:summary="@string/summary_recordvoice_str"/>
+    <ListPreference
+        android:key="MusicVoice"
+        android:title="@string/title_musicvoice_listpreference"
+        android:entries="@array/voice_adjust"
+        android:entryValues="@array/voice_adjust"
+        android:dialogTitle="@string/dialog_musicvoice_title"
+        android:defaultValue="@string/default_musicvoice_str"
+        android:summary="@string/summary_musicvoice_str"/>
+</PreferenceScreen>

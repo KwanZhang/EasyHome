@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">易分享</string>
+	
+	<string name="bxfile_ram">手机内存</string>
+	<string name="bxfile_sdcard">SD卡内存</string>
+	<string name="bxfile_extsdcard">扩展卡内存</string>
+	<string name="bxfile_image">图片</string>
+	<string name="bxfile_music">音乐</string>
+	<string name="bxfile_video">视频</string>
+	
+	<string name="setting">设置</string>
+	<string name="ktv">K歌</string>
+	<string name="video">视频</string>
+	<string name="audio">音乐</string>
+	<string name="photo">图片</string>
+	<string name="network">Wifi直连加速</string>
+	
+	<string name="device_scan">搜索播放器</string>
+	<string name="control">播放控制</string>
+	
+	<string name="notify_connect_rounter">打开wifi，连上网络</string>
+	<string name="p2p_enable">打开</string>
+	<string name="p2p_disable">关闭</string>
+	<string name="wifi_direct_setup_timeout">Wifi直连加速超时！</string>
+	<string name="localeFile">本地文件</string>
+	<string name="curCatagoryNoFiles">该分类没有文件</string>
+	<string name="curDirNoChilds">当前文件夹没有文件</string>
+	<string name="enable_p2p_button">直连开关</string>
+	<string name="discover_peers_button">搜索设备</string>
+	<string name="bxfile_media_cnt">(%1$s)</string>
+	<string name="cancel">取消</string>
+	<string name="ok">确定</string>
+	<string name="quit">退出</string>
+	<string name="SDCardNotMounted">SDCard未加载</string>
+	<string name="hello">Hello World, ListPreferenceTest!</string>
+    <string name="key_str">key</string>
+    <string name="title_str">你最喜欢的蔬菜</string>
+    <string name="title_listpreference">选择蔬菜</string>
+    <string name="default_str">baicai</string>
+    <string name="dialog_title">请选择你喜欢的蔬菜</string>
+    <string name="summary_str">白菜</string>
+    
+    <string name="title_samplerate_listpreference">采样频率</string>
+    <string name="dialog_samplerate_title">采样频率</string>
+    <string name="default_samplerate_str">44.1KHz</string>
+    <string name="summary_samplerate_str">设置采样频率</string>
+    <string name="title_channelconfig_listpreference">声道设置</string>
+    <string name="dialog_channelconfig_title">声道设置</string>
+    <string name="default_channelconfig_str">单声道</string>
+    <string name="summary_channelconfig_str">设置声道</string>
+    <string name="title_audioformat_listpreference">编码设置</string>
+    <string name="dialog_audioformat_title">编码设置</string>
+    <string name="default_audioformat_str">PCM 16Bit</string>
+    <string name="summary_audioformat_str">设置编码格式</string>
+    <string name="title_recordvoice_listpreference">录音音量</string>
+    <string name="dialog_recordvoice_title">录音音量</string>
+    <string name="default_recordvoice_str">1</string>
+    <string name="summary_recordvoice_str">调节录音音量</string>
+    <string name="title_musicvoice_listpreference">伴奏音量</string>
+    <string name="dialog_musicvoice_title">伴音音量</string>
+    <string name="default_musicvoice_str">1</string>
+    <string name="summary_musicvoice_str">调节伴音音量</string>
+    <string name="click_to_skip">点击跳过</string>
+    <string name="gdtslogan">GDTslogan</string>
+</resources>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#009688"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".RecordPanel" >
+
+   <com.dream.share.util.CircularMusicProgressBar
+        android:id="@+id/bg_music"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:src="@drawable/maron5"
+        app:border_color="#00796B"
+        app:border_width="2dp"
+        app:centercircle_diammterer=".97"
+        app:progress_color="#80CBC4"
+        app:progress_startAngle="40" />
+    
+    <TextView
+        android:id="@+id/song_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        android:textColor="@android:color/primary_text_dark"
+        android:textSize="20sp"
+        android:lines="1"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/artist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@android:color/primary_text_dark"
+        android:textSize="16sp" />
+
+   <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="20dp">
+
+        <ImageButton
+            android:id="@+id/img_setting"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="10dp"
+            android:background="@null"
+            android:src="@drawable/setting_btn" />
+        
+        <ImageButton
+            android:id="@+id/img_play"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:background="@null"
+            android:src="@drawable/mic_btn" />
+         <!-- 
+        <com.dream.share.view.MicrophoneLevelsView 
+            android:id="@+id/img_play"
+        	android:layout_width="128dp"
+        	android:layout_height="128dp"/>
+        -->
+        <ImageButton
+            android:id="@+id/img_add"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginRight="10dp"
+            android:background="@null"
+            android:src="@drawable/add_btn" />
+        
+    </LinearLayout>
+
+
+</LinearLayout>

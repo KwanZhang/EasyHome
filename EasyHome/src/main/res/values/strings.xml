@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Easy Player</string>
+	<string name="cancel">Cancel</string>
+	<string name="ok">OK</string>
+	<string name="loading">Loading.. </string>
+	 <string name="scanQR">Scan QR Code \n to get phone APP</string>
+	<string name="wifi_direct_setup_timeout">Wifi Direct Setup Timeout !</string>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Easy Share</string>
+	
+	<string name="bxfile_ram">Phone RAM</string>
+	<string name="bxfile_sdcard">SD Card</string>
+	<string name="bxfile_extsdcard">Ext SD Card</string>
+	<string name="bxfile_image">Photo</string>
+	<string name="bxfile_music">Music</string>
+	<string name="bxfile_video">Video</string>
+	
+	<string name="setting">Settings</string>
+	<string name="ktv">KTV</string>
+	<string name="photo">Photo</string>
+	<string name="video">Video</string>
+	<string name="audio">Audio</string>
+	<string name="network">Wifi Direct</string>
+	<string name="device_scan">Device Scan</string>
+	<string name="control">Play Control</string>
+	
+	<string name="notify_connect_rounter">Turn on Wifi,Connect to network</string>
+	<string name="p2p_enable">ON</string>
+	<string name="p2p_disable">OFF</string>
+	<string name="wifi_direct_setup_timeout">Wifi Direct Setup Timeout !</string>
+	<string name="localeFile">Locale File</string>
+	<string name="curCatagoryNoFiles">No File</string>
+	<string name="curDirNoChilds">No File</string>
+	<string name="enable_p2p_button">P2P On/Off</string>
+	<string name="discover_peers_button">Discover</string>
+	<string name="bxfile_media_cnt">(%1$s)</string>
+	<string name="cancel">Cancel</string>
+	<string name="ok">OK</string>
+	<string name="quit">Quit</string>
+	<string name="SDCardNotMounted">SDCard Not Mount</string>
+</resources>
